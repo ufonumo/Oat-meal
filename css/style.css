@@ -130,6 +130,14 @@ button.btn.btn_learn_more {
     padding-top: 1rem;
 }
 
+.product_item sub{
+    color: #1F2B45;
+}
+
+.product_item .brown{
+    color: #F2D39A;
+}
+
 .product_item_one {
     background: #191919;
     padding: 2rem;
@@ -283,6 +291,12 @@ button.btn.btn_learn_more {
     font-weight: 600;
 }
 
+.contact_adress h6{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .contact_form .form-group{
     margin-bottom: 4rem;
 }
@@ -294,4 +308,10 @@ button.btn.btn_learn_more {
 
 .address{
     font-size: 18px;
+}
+
+.feedback{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
 }

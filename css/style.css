@@ -286,3 +286,12 @@ button.btn.btn_learn_more {
 .contact_form .form-group{
     margin-bottom: 4rem;
 }
+
+.contact_links a{
+    color: #191919;
+    font-size: 18px;
+}
+
+.address{
+    font-size: 18px;
+}

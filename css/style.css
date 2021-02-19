@@ -16,7 +16,9 @@
 }
 
 body{
-    background: #1A1A1A;
+    /* background: #1A1A1A; */
+    background: #191919;
+
 }
 
 /* NAVBAR */
@@ -84,7 +86,7 @@ section.about {
 }
 
 .about img{
-    width: 100%;
+    width: auto;
 }
 
 button.btn.btn_learn_more {
@@ -110,6 +112,41 @@ button.btn.btn_learn_more {
     color: #C6C6C6;
     font-size: 20px;
     line-height: 33px;
+}
+
+.product_item {
+    display: flex;
+}
+
+.product_item h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 1rem;
+}
+
+.product_item_one {
+    background: #191919;
+    padding: 2rem;
+}
+
+.product_item_two {
+    background: #F1D0A7;
+    padding: 2rem;
+}
+
+.product_item_three {
+    background: #A56037;
+    padding: 2rem;
+}
+
+.product_item_four {
+    background: #D89441;
+    padding: 2rem;
+}
+
+.product_item_image{
+    width: 100%;
 }
 
 /* NEWSLETTER */
@@ -185,4 +222,41 @@ button.btn.btn_learn_more {
         line-height: 1.5;
         margin-right: .5rem;
     }
+    .product_item {
+        display: flex;
+        flex-direction: column;
+    }
+    .made_product img {
+        width: 100%;
+    }
+}
+
+/* ==================CONTACT PAGE================================== */
+#home_back{
+    background-image: url(/assets/back.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.contact h1{
+    padding-top: 500px;
+}
+
+.contact_right{
+    margin-top: 6rem;
+    margin-left: 6rem;
+}
+
+.contact_input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #000;
+    padding: .4rem;
+}
+
+.contact_form {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 2rem;
 }

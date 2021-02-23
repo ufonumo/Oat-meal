@@ -354,3 +354,39 @@ button.btn.btn_learn_more {
         padding: 1rem;
     }
 }
+
+/* PRODUCTS */
+
+.product_row{
+    padding: 150px 0;
+
+}
+
+.product_list_left h1{
+    font-size: 55px;
+    line-height: 67px;
+    font-variant: small-caps;
+    color: #EEEEEE;
+}
+
+.product_list_left p {
+    font-size: 24px;
+    line-height: 33px;
+    color: #ACACAC;
+}
+
+.product_list_right img{
+    width: 100%;
+}
+
+.product_items{
+    background: #F1CAB3;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.product_items .btn_learn_more{
+    border: 1px solid #1F2B45;
+    box-sizing: border-box;
+    border-radius: 5px;
+}

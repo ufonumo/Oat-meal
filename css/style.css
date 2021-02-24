@@ -178,7 +178,7 @@ button.btn.btn_learn_more {
 /* FOOTER */
 .socials img{
     width: auto;
-    margin: 20px;
+    margin: 10px;
 }
 
 .social_links{
@@ -389,4 +389,9 @@ button.btn.btn_learn_more {
     border: 1px solid #1F2B45;
     box-sizing: border-box;
     border-radius: 5px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
 }

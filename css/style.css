@@ -19,6 +19,7 @@ body{
     /* background: #1A1A1A; */
     background: #191919;
     overflow-x: hidden !important;
+    -webkit-overflow-x: hidden !important;
 }
 
 /* NAVBAR */

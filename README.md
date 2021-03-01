@@ -1,2 +1,2 @@
 # Oat-meal
-# https://app.netlify.com/sites/oat-meal
+# https://oat-meal.netlify.app/
